@@ -1,16 +1,15 @@
 {
   "name": "create-webpack-split-point",
   "main": "./lib/split",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "Author": "Social Tables",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "description": "A short description of your package",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "create-webpack-split-point:split"
   },
   "repository": "https://github.com/socialtables/create-webpack-split-point-atom",
-  "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
