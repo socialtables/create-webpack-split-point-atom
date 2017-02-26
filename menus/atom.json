@@ -1,0 +1,10 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Create Webpack Split Point",
+        "command": "create-webpack-split-point:split"
+      }
+    ]
+  }
+}
