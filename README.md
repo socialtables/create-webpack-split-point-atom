@@ -1,10 +1,10 @@
 # create-webpack-split-point
 
-Webpack 2 exposes System.import a async module loader that will automatically define a split point and create a new bundle in your code that will only be loaded if the system.import is executed. React components that are not part of initial paint are a taylor made use case for this. This module aims to abstract a way the work of creating one of these components.
+Webpack 2 exposes import() a async module loader that will automatically define a split point and create a new bundle in your code that will only be loaded if the system.import is executed. React components that are not part of initial paint are a taylor made use case for this. This module aims to abstract a way the work of creating one of these components.
 
 ## use
 
-`npm install -g create-webpack-split-point`;
+`apm install  create-webpack-split-point`
 
 In atom right click inside of a component you wish to turn into async bundled split point and select Create Webpack Split Point. This wil create two files, index.js which exports the async component and component-async which writes the comopnent that loads the split bundle in componentDidMount.
 
