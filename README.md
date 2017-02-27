@@ -2,6 +2,8 @@
 
 Webpack 2 exposes import() a async module loader that will automatically define a split point and create a new bundle in your code that will only be loaded if the system.import is executed. React components that are not part of initial paint are a taylor made use case for this. This module aims to abstract a way the work of creating one of these components.
 
+<img src="./create-split-point.gif" />
+
 ## use
 
 `apm install  create-webpack-split-point`
