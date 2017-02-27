@@ -1,7 +1,7 @@
 {
   "name": "create-webpack-split-point",
   "main": "./lib/split",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "Author": "Social Tables",
   "license": "MIT",
   "description": "A short description of your package",
